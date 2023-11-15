@@ -33,6 +33,7 @@ Below are the steps that I used to implement the interpreter
 
    <p>The push.c function does just that. It takes a number as input and adds it to the top of the stack. 
    If everything goes smoothly, the function returns 1 to indicate success. If something goes wrong, it returns 0 to indicate an error.</p>
+   <p>This is a Project By Henry Asiedu and Kingsley Dade</p>
 
 
 <h2> THIS README FILE WILL BE UPDATED</h2>
