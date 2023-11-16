@@ -46,4 +46,8 @@ void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **top, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
+void mysub(stack_t **stack, unsigned int line_number);
+void mymul(stack_t **stack, unsigned int line_number);
+void mydiv(stack_t **stack, unsigned int line_number);
+void modulos(stack_t **stack, unsigned int line_number);
 #endif /* MONTY_H */
