@@ -15,6 +15,6 @@ void mysub(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 
-	(**stack)->next->n -= (*stack)->n; /* Subtract the top element */
+	(*stack)->next->n -= (*stack)->n; /* Subtract the top element */
 	pop(stack, line_number); /* Remove the top element */
 }

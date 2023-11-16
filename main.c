@@ -82,23 +82,23 @@ int main(int argc, char *argv[])
 		{
 			nop(&stack, line_number);
 		}
-		/*else if (strcmp(opcode, "sub") == 0)
+		else if (strcmp(opcode, "sub") == 0)
 		{
-			sub(&stack, line_number);
+			mysub(&stack, line_number);
 		}
 		else if (strcmp(opcode, "div") == 0)
 		{
-			div_op(&stack, line_number);
+			mydiv(&stack, line_number);
 		}
 		else if (strcmp(opcode, "mul") == 0)
 		{
-			mul(&stack, line_number);
+			mymul(&stack, line_number);
 		}
 		else if (strcmp(opcode, "mod") == 0)
 		{
-			mod(&stack, line_number);
+			modolos(&stack, line_number);
 		}
-		else if (strcmp(opcode, "pchar") == 0)
+		/*else if (strcmp(opcode, "pchar") == 0)
 		{
 			pchar(&stack, line_number);
 		}
