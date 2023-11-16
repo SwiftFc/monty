@@ -98,7 +98,7 @@ int main(int argc, char *argv[])
 		{
 			modolos(&stack, line_number);
 		}
-		/*else if (strcmp(opcode, "pchar") == 0)
+		else if (strcmp(opcode, "pchar") == 0)
 		{
 			pchar(&stack, line_number);
 		}
@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
 		else if (strcmp(opcode, "rotl") == 0)
 		{
 			rotl(&stack);
-		}*/
+		}
 		else
 		{
 			fprintf(stderr, "L%u: unknown instruction %s\n", line_number, opcode);
