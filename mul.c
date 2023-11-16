@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mymul - A function that is designed to multiply the top element 
+ * mymul - A function that is designed to multiply the top element
  *       of the stack from the second top element.
  * @stack: A double pointer to the beginning of the stack. It allows the
  *         the function to modify the original stack pointer

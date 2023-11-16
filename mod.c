@@ -8,7 +8,7 @@
  * @line_number: The line number where the modulos opcode is being executed.
  */
 
-void modulos(stack_t **stack, unsigned int line_number)
+void modolos(stack_t **stack, unsigned int line_number)
 {
 	if (*stack == NULL || (*stack)->next == NULL)
 	{

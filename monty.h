@@ -49,5 +49,5 @@ void add(stack_t **stack, unsigned int line_number);
 void mysub(stack_t **stack, unsigned int line_number);
 void mymul(stack_t **stack, unsigned int line_number);
 void mydiv(stack_t **stack, unsigned int line_number);
-void modulos(stack_t **stack, unsigned int line_number);
+void modolos(stack_t **stack, unsigned int line_number);
 #endif /* MONTY_H */
